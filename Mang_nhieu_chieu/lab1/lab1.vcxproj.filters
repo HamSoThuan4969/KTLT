@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\BaiTap_NangCao">
+      <UniqueIdentifier>{4cbc64a6-516d-4c7d-afd9-f2b5dc308c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaiTap_CoVeHay">
+      <UniqueIdentifier>{d35e3b01-4234-43ae-a533-31752231f40b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bai7.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btMang1_PhatBanNhac.cpp">
+      <Filter>Source Files\BaiTap_NangCao</Filter>
+    </ClCompile>
+    <ClCompile Include="Ve_ghe_MayBay.cpp">
+      <Filter>Source Files\BaiTap_CoVeHay</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

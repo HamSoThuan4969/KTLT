@@ -17,6 +17,7 @@ void outputArray(int a[100][100], int row, int col){
 		for (int j = 0; j < col; j++) {
 			cout << a[i][j] << " ";
 		}
+		cout << endl;
 	}
 
 }
@@ -41,6 +42,22 @@ bool findValue(int a[100][100], int row, int col, int value) {
 	return false;
 }
 
+void swap_value(int a[100][100], int row, int col, int value1, int value2) {
+	if (findValue(a, row, col, value1) && findValue(a, row, col, value2)) {
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < col; j++) {
+				if (a[i][j] == value1) {
+					a[i][j] = value2;
+				}
+				else {
+					if (a[i][j] == value2) {
+						a[i][j] = value1;
+					}
+				}
+			}
+		}
+	}
+}
 int main() {
 	int a[100][100];
 	int row, col;
@@ -61,5 +78,11 @@ int main() {
 	else {
 		cout << "Gia tri " << value << " khong co trong mang." << endl;
 	}
+	int value1, value2;
+	cout << "Nhap gia tri can doi cho thu nhat: ";
+	cin >> value1;
+	cout << "Nhap gia tri can doi cho thu 2 : ";
+	cin >> value2;
+	swap_value(a, row, col, value1, value2);
 	return 0;
 }
