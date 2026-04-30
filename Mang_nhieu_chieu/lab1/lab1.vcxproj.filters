@@ -19,6 +19,9 @@
     <Filter Include="Source Files\BaiTap_CoVeHay">
       <UniqueIdentifier>{d35e3b01-4234-43ae-a533-31752231f40b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\BaiTap_Chuoi_lab">
+      <UniqueIdentifier>{ee221b3a-46fb-42cb-945b-50960eac1d87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bai7.cpp">
@@ -29,6 +32,18 @@
     </ClCompile>
     <ClCompile Include="Ve_ghe_MayBay.cpp">
       <Filter>Source Files\BaiTap_CoVeHay</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai1.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai2.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai3.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
