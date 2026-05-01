@@ -11,6 +11,11 @@
 //d.Hàm đếm xem 1 chuỗi có bao nhiêu ký tự in hoa.
 //e.Hàm đếm xem 1 chuỗi có bao nhiêu ký tự in thường.
 //f.Hàm chuyển toàn bộ chuỗi sang in hoa.
+//g.Hàm chuyển toàn bộ chuỗi sang in thường.
+//h.Hàm chuyển chuỗi sang dạng in hoa ký tự đầu tiên mỗi từ.
+//i.Hàm đếm xem 1 chuỗi có bao nhiêu từ.
+//j.Hàm main kiểm chứng các hàm trên.
+
 using namespace std;
 void Input(char s[100]) {
 	cout << "nhap chuoi:  \n";
@@ -82,7 +87,15 @@ void Toupper(char* chuoi) {
 		chuoi[i] = toupper(chuoi[i]);
 	}
 }
+void ToupperFirst(char* chuoi) {
+	xoaKhoangTranng_Dau_Cuoi(chuoi);
+	chuoi[0] = toupper(chuoi[0]);
+	for (int i = 1; i < strlen(chuoi); i++) {
+		if (isspace(chuoi[i - 1])) chuoi[i] = toupper(chuoi[i]);
+		else chuoi[i] = tolower(chuoi[i]);
+	}
 
+}
 
 int main() {
 	char chuoi[200];
@@ -97,6 +110,8 @@ int main() {
 	countThuong(chuoi);
 	Toupper(chuoi);
 	cout << "chuoi sau khi chuyen sang in hoa: \n";
+	Output(chuoi);
+	ToupperFirst(chuoi);
 	Output(chuoi);
 
 

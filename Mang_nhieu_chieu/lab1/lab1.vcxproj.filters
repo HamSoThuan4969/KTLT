@@ -45,5 +45,17 @@
     <ClCompile Include="bai3.cpp">
       <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
     </ClCompile>
+    <ClCompile Include="bai4.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai5.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai7_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai6.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
