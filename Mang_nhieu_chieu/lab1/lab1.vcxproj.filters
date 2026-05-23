@@ -22,6 +22,12 @@
     <Filter Include="Source Files\BaiTap_Chuoi_lab">
       <UniqueIdentifier>{ee221b3a-46fb-42cb-945b-50960eac1d87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\TapTin_Luong">
+      <UniqueIdentifier>{030cc397-a98b-44ec-aacd-b19c39a4ca18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Struct">
+      <UniqueIdentifier>{12ab492f-709b-4c7d-a80d-cf9cd15606e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bai7.cpp">
@@ -57,5 +63,115 @@
     <ClCompile Include="bai6.cpp">
       <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
     </ClCompile>
+    <ClCompile Include="bai8.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai9_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai10_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai11_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai12_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai13_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai14_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai15_chuoi.cpp">
+      <Filter>Source Files\BaiTap_Chuoi_lab</Filter>
+    </ClCompile>
+    <ClCompile Include="bai1_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai3_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai4_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai5_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai6_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai7_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai8_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai9_Luong.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai2_ontap_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai3_ontap_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai4_ontap_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="testtt.cpp">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </ClCompile>
+    <ClCompile Include="bai2_ThucHanh_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai3_ThucHanh_Struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai1_ontap_struct.cpp">
+      <Filter>Source Files\BaiTap_NangCao</Filter>
+    </ClCompile>
+    <ClCompile Include="bai4_ThucHanh_Struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai5_ThucHanh_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai6_ThucHanh_struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="test_OnTap_Struct2.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai2_ontap_Struct2.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="bai3_ontap_Struct2.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BT1.txt">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </Text>
+    <Text Include="BT3.txt">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </Text>
+    <Text Include="BT4.txt">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </Text>
+    <Text Include="BT7.txt">
+      <Filter>Source Files\TapTin_Luong</Filter>
+    </Text>
+    <Text Include="SanPham.txt">
+      <Filter>Source Files\Struct</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\..\Downloads\HocSinh (2).txt">
+      <Filter>Source Files\Struct</Filter>
+    </Text>
+    <Text Include="DSSP.txt">
+      <Filter>Source Files\Struct</Filter>
+    </Text>
   </ItemGroup>
 </Project>
